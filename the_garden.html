@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>𖤓 The Garden</title>
+<link rel="stylesheet" href="style.css">
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<!-- JavaScript for the search bar  -->
+<script>
+function searchPlants() {
+  const input = document.getElementById("searchInput").value.toLowerCase();
+  const cards = document.querySelectorAll(".plantBox");
+  cards.forEach(card => {
+    const text = card.innerText.toLowerCase();
+    if (text.includes(input)) {
+      card.style.display = "";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
+</script>
+
+<body>
+
+<div class="background">
+    <img src="images/background2.png">
+</div>
+
+<nav class="navbar">
+  <h1>Houseplants</h1>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="the_garden.html">The Garden</a></li>
+    <li><a href="#">Plant Planner</a></li>
+    <li><a href="#">Other</a></li>
+  </ul>
+  </div>
+  <div class="hamburger">☰</div>
+</nav>
+
+<div class="allPlantContent">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="pageTitle">
+    <h1>The Garden</h1>
+    <p>The Garden is a collection of common houseplants, organized by genus (a group of closely related species within the same plant family).
+    Click ⋯ to learn more about a plant, its care instructions, and other species within the same genus.
+    You can also search for plants by their common name, genus, or family using the search bar below.</p>
+</div>
+
+<br>
+
+<div class="searchBar">
+  <input 
+    type="text" 
+    id="searchInput" 
+    placeholder= "Search plants..." 
+    onkeyup="searchPlants()">
+</div>
+
+<br>
+
+<div class="plantContainer">
+
+<div class="plantBox">
+    <img src="images/plants/aglaonema_thumb.jpg">
+    <h1>Aglaonema</h1>
+    <h3>Araceae</h3>
+    <p>Chinese Evergreen / Philippine Evergreen / Aglaonema</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/aglaonema.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/alocasia-thumb.jpg">
+    <h1>Alocasia</h1>
+    <h3>Araceae</h3>
+    <p>Elephant Ear / African Mask Plant / Kris Plant / Jewel Alocasia / Giant Taro</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/alocasia.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/aloe-thumb.jpg">
+    <h1>Aloe</h1>
+    <h3>Asphodelaceae</h3>
+    <p>Aloe Vera / Burn Plant / Medicine Plant /Desert Lily</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/aloe.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/anthurium_thumb.jpg">
+    <h1>Anthurium</h1>
+    <h3>Araceae</h3>
+    <p>Flamingo Flower / Laceleaf / Tailflower / Painters Palette</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/anthurium.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/noimage.jpg">
+    <h1>Apoballis</h1>
+    <h3>Araceae</h3>
+    <p></p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/apoballis.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/arabica_thumb.jpg">
+    <h1>Arabica</h1>
+    <h3>Rubiaceae</h3>
+    <p>Coffee Plant / Arabian Coffee</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/arabica.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/noimage.jpg">
+    <h1>Aralia</h1>
+    <h3>Araliaceae</h3>
+    <p>Spikenard / Angelica Tree / Hercules' Club / Japanese Aralia (for some species) / Ming Aralia</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/aralia.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/begonia_thumb.jpg">
+    <h1>Begonia</h1>
+    <h3>Begoniaceae</h3>
+    <p>Wax Begonia / Rex Begonia / Angel Wing Begonia / Tuberous Begonia / Rhizomatous Begonia</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/begonia.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/strelitzia_thumb.jpg">
+    <h1>Strelitzia</h1>
+    <h3>Strelitziaceae</h3>
+    <p>Bird of Paradise / Crane Flower / Wild Banana ( Strelitzia nicolai )</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/strelitzia.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/bonsai_thumb.jpg">
+    <h1>Bonsai</h1>
+    <h3>Various</h3>
+    <p>Bonsai / Miniature Tree / Tray Planting / Penjing</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/bonsai.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/bromeliad_thumb.jpg">
+    <h1>Bromeliad</h1>
+    <h3>Bromeliaceae</h3>
+    <p>Bromeliad / Air Plant / Pineapple Plant ( Ananas comosus ) / Spanish Moss ( Tillandsia usneoides )</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/bromeliad.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/cactus_thumb.jpg">
+    <h1>Cactus</h1>
+    <h3>Cactaceae</h3>
+    <p>Cactus / Prickly Pear / Barrel Cactus / Christmas Cactus /Easter Cactus</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/cactus.html">⋯</a>
+    </div>
+</div>
+
+
+<div class="plantBox">
+    <img src="images/plants/calathea_thumb.jpg">
+    <h1>Calathea</h1>
+    <h3>Marantaceae</h3>
+    <p>Peacock Plant / Prayer Plant / Zebra Plant / Rattlesnake Plant / Pinstripe Plant</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/calathea.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/clusia_thumb.jpg">
+    <h1>Clusia</h1>
+    <h3>Clusiaceae</h3>
+    <p>Autograph Tree / Pitch Apple / Scotch Attorney / Balsam Apple</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/clusia.html">⋯</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/plectranthus_thumb.jpg">
+    <h1>Plectranthus</h1>
+    <h3>Lamiaceae</h3>
+    <p>Coleus / Painted Nettle / Flame Nettle / Poor Mans Croton / Painted Leaf</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/plectranthus.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/cordyline_thumb.jpg">
+    <h1>Cordyline</h1>
+    <h3>Asparagaceae</h3>
+    <p>Ti Plant / Good Luck Plant / Hawaiian Ti / Cabbage Tree</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/cordyline.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/croton_thumb.jpg">
+    <h1>Croton</h1>
+    <h3>Euphorbiaceae</h3>
+    <p>Croton / Variegated Laurel</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/croton.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/cryptanthus_thumb.jpg">
+    <h1>Cryptanthus</h1>
+    <h3>Bromeliaceae</h3>
+    <p>Earth Star / Starfish Plant</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/cryptanthus.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/ctenanthe_thumb.jpg">
+    <h1>Ctenanthe</h1>
+    <h3>Marantaceae</h3>
+    <p>Never Never Plant / Brazilian Snow Plant / Prayer Plant</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/ctenanthe.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/dieffenbachia_thumb.jpg">
+    <h1>Dieffenbachia</h1>
+    <h3>Araceae</h3>
+    <p>Dumb Cane / Leopard Lily / Exotica</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/dieffenbachia.html">+</a>
+    </div>
+</div>
+
+
+<div class="plantBox">
+    <img src="images/plants/dracaena_thumb.jpg">
+    <h1>Dracaena</h1>
+    <h3>Asparagaceae</h3>
+    <p>Corn Plant / Dragon Tree / Lucky Bamboo ( Dracaena sanderiana ) / Song of India ( Dracaena reflexa )</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/dracaena.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/echeveria_thumb.jpg">
+    <h1>Echeveria</h1>
+    <h3>Crassulaceae</h3>
+    <p>Echeveria / Hen and Chicks</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/echeveria.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/epiphyllum_thumb.jpg">
+    <h1>Epiphyllum</h1>
+    <h3>Cactaceae</h3>
+    <p>Orchid Cactus / Leaf Cactus / Climbing Cactus</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/epiphyllum.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/fern_thumb.jpg">
+    <h1>Fern</h1>
+    <h3>Various</h3>
+    <p>Bracken / Maidenhair / Staghorn Fern / Boston Fern / Bird's Nest Fern</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/fern.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/ficus_thumb.jpg">
+    <h1>Ficus</h1>
+    <h3>Moraceae</h3>
+    <p>Fig / Rubber Plant / Weeping Fig / Fiddle Leaf Fig / Creeping Fig</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/ficus.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/fittonia_thumb.jpg">
+    <h1>Fittonia</h1>
+    <h3>Acanthaceae</h3>
+    <p>Nerve Plant / Mosaic Plant</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/fittonia.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/gerbera_thumb.jpg">
+    <h1>Gerbera</h1>
+    <h3>Asteraceae</h3>
+    <p>Gerbera Daisy / Transvaal Daisy / Barberton Daisy / African Daisy</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/gerbera.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/guzmania_thumb.jpg">
+    <h1>Guzmania</h1>
+    <h3>Bromeliaceae</h3>
+    <p>Bromeliad</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/guzmania.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/homalomena_thumb.jpg">
+    <h1>Homalomena</h1>
+    <h3>Araceae</h3>
+    <p>Shield Plant / Queen of Hearts / Emerald Gem / Heart Leaf / Green Shield</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/homalomena.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/hoya_thumb.jpg">
+    <h1>Hoya</h1>
+    <h3>Apocynaceae</h3>
+    <p>Wax Plant / Porcelain Flower / Hindu Rope Plant / Shooting Star Hoya / Sweetheart Plant ( Hoya kerrii )</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/hoya.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/hydrangea_thumb.jpg">
+    <h1>Hydrangea</h1>
+    <h3>Hydrangeaceae</h3>
+    <p>Hortensia / Hydrangea</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/hydrangea.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/hypoestes_thumb.jpg">
+    <h1>Hypoestes</h1>
+    <h3>Acanthaceae</h3>
+    <p>Polka Dot Plant / Freckle Face / Splash Plant</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/hypoestes.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/hedera_thumb.jpg">
+    <h1>Hedera</h1>
+    <h3>Araliaceae</h3>
+    <p>Ivy / English Ivy / Common Ivy / European Ivy</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/hedera.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/aeschynanthus_thumb.jpg">
+    <h1>Aeschynanthus</h1>
+    <h3>Gesneriaceae</h3>
+    <p>Lipstick Plant / Basket Vine / Lipstick Vine</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/aeschynanthus.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/maranta_thumb.jpg">
+    <h1>Maranta</h1>
+    <h3>Marantaceae</h3>
+    <p>Prayer Plant / Herringbone Plant /Red-veined Prayer Plant /Green Prayer Plant</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/maranta.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/pachira_thumb.jpg">
+    <h1>Pachira</h1>
+    <h3>Malvaceae</h3>
+    <p>Money Tree / Malabar Chestnut / Guiana Chestnut / Saba Nut</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/pachira.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/monstera_thumb.jpg">
+    <h1>Monstera</h1>
+    <h3>Araceae</h3>
+    <p>Swiss Cheese Plant / Split-Leaf Philodendron / Hurricane Plant / Mexican Breadfruit</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/monstera.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/nematanthus_thumb.jpg">
+    <h1>Nematanthus</h1>
+    <h3>Gesneriaceae</h3>
+    <p>Goldfish Plant / Guppy Plant / Hypocyrta</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/nematanthus.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/noimage.jpg">
+    <h1>Urtica</h1>
+    <h3>Urticaceae</h3>
+    <p>Stinging Nettle / Common Nettle / Burn Nettle / Urtica / Tall Nettle</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/urtica.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/olea_thumb.jpg">
+    <h1>Olea</h1>
+    <h3>Oleaceae</h3>
+    <p>Olive / Olive Tree / European Olive</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/olea.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/orchid_thumb.jpg">
+    <h1>Orchid</h1>
+    <h3>Orchidaceae</h3>
+    <p>Orchid / Moth Orchid ( Phalaenopsis ) / Cattleya / Dendrobium / Vanda / Ladys Slipper ( Paphiopedilum )</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/orchid.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/palm_thumb.jpg">
+    <h1>Palm</h1>
+    <h3>Arecaceae</h3>
+    <p>Palm Tree / Coconut Palm / Date Palm / Areca Palm / Sago Palm / Parlour Palm</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/palm.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/spathiphyllum_thumb.jpg">
+    <h1>Spathiphyllum</h1>
+    <h3>Araceae</h3>
+    <p>Peace Lily / White Sails / Spathe Flower</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/spathiphyllum.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/peperomia_thumb.jpg">
+    <h1>Peperomia</h1>
+    <h3>Piperaceae</h3>
+    <p>Radiator Plant / Baby Rubber Plant / Emerald Ripple / Watermelon Peperomia / Cupid Peperomia</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/peperomia.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/philodendron_thumb.jpg">
+    <h1>Philodendron</h1>
+    <h3>Araceae</h3>
+    <p>Heartleaf Philodendron / Split Leaf Philodendron / Tree Philodendron / Blushing Philodendron</p>
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/philodendron.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/euphorbia_thumb.jpg">
+    <h1>Euphorbia</h1>
+    <h3>Euphorbiaceae</h3>
+    <p>Poinsettia / Christmas Star / Lobster Flower / Mexican Flame Leaf / Winter Rose</p>   
+
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/euphorbia.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/epipremnum_thumb.jpg">
+    <h1>Epipremnum</h1>
+    <h3>Araceae</h3>
+    <p>Pothos / Devils Ivy / Golden Pothos / Hunters Robe / Silver Vine / Money Plant</p>   
+
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/epipremnum.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/noimage.jpg">
+    <h1>Rhaphidophora</h1>
+    <h3>Araceae</h3>
+    <p>Monstera / Shingle Plant / Mini Monstera ( Rhaphidophora tetrasperma ) / Dragon Tail</p>   
+
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/rhaphidophora.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/schefflera_thumb.jpg">
+    <h1>Schefflera</h1>
+    <h3>Araliaceae</h3>
+    <p>Umbrella Plant / Octopus Tree /Dwarf Umbrella Tree</p>   
+
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/schefflera.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/scindapsus_thumb.jpg">
+    <h1>Scindapsus</h1>
+    <h3>Araceae</h3>
+    <p>Satin Pothos / Silver Pothos / Silver Vine / Silk Pothos / Satin Philodendron</p>   
+
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/scindapsus.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/sansevieria_thumb.jpg">
+    <h1>Sansevieria</h1>
+    <h3>Asparagaceae</h3>
+    <p>Snake Plant / Mother in Laws Tongue / Vipers Bowstring Hemp / Saint Georges Sword</p>   
+
+   
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/sansevieria.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/chlorophytum_thumb.jpg">
+    <h1>Chlorophytum</h1>
+    <h3>Asparagaceae</h3>
+    <p>Spider Plant / Airplane Plant / Ribbon Plant / St Bernards Lily / Spider Ivy</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/chlorophytum.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/stromanthe_thumb.jpg">
+    <h1>Stromanthe</h1>
+    <h3>Marantaceae</h3>
+    <p>Stromanthe / Tricolor Prayer Plant ( Stromanthe sanguinea Triostar )</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/stromanthe.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/succulent_thumb.jpg">
+    <h1>Succulent</h1>
+    <h3>Various</h3>
+    <p>Succulents</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/succulent.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/syngonium_thumb.jpg">
+    <h1>Syngonium</h1>
+    <h3>Araceae</h3>
+    <p>Arrowhead Plant / Goosefoot Plant / Nephthytis / Five Fingers</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/syngonium.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/tradescantia_thumb.jpg">
+    <h1>Tradescantia</h1>
+    <h3>Commelinaceae</h3>
+    <p>Spiderwort / Inch Plant / Purple Heart / Tradescantia</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/tradescantia.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/tillandsia_thumb.jpg">
+    <h1>Tillandsia</h1>
+    <h3>Bromeliaceae</h3>
+    <p>Air Plant / Tillandsia / Sky Plant</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/tillandsia.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/yucca_thumb.jpg">
+    <h1>Yucca</h1>
+    <h3>Asparagaceae</h3>
+    <p>Yucca / Adams Needle / Spanish Bayonet / Bear Grass / Soapweed</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg"> 
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="../houseplants/plants_fullpage/yucca.html">+</a>
+    </div>
+</div>
+
+<div class="plantBox">
+    <img src="images/plants/zamioculcas_thumb.jpg">
+    <h1>Zamioculcas</h1>
+    <h3>Araceae</h3>
+    <p>ZZ Plant / Zanzibar Gem / Zuzu Plant / Emerald Palm / Eternity Plant</p>   
+
+    <div class="waterIcons">
+    <img src="icons/droplet-solid.svg">
+    <img src="icons/droplet.svg"> 
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    <img src="icons/droplet.svg">
+    
+    </div>
+    <div class="sunIcons">
+    <img src="icons/sun-solid.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    <img src="icons/sun.svg">
+    </div>
+    <div class="plantBoxInfo">
+       <a href="plants_fullpage/zamioculcas.html">+</a>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
