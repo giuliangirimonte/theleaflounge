@@ -32,7 +32,7 @@ background-color: rgb(51, 65, 41);
   position: fixed;
   width: 100%;
   z-index: 100;
-  padding: 0.5rem 35px;
+  padding: 0.1rem 30px;
   box-sizing: border-box; 
   box-shadow: 2px 7px 12px 4px rgba(12, 21, 2, 0.586);
   backdrop-filter: blur(7px);
@@ -108,7 +108,7 @@ background-color: rgb(51, 65, 41);
   .navbar ul {
     display: none;
   }
-   .navbar {
+   /* .navbar {
     background: rgb(51, 65, 41);
     border-radius: 0px;
     top: 0px;
@@ -117,7 +117,7 @@ background-color: rgb(51, 65, 41);
     border-bottom: 0px;
     border-right:  0px;
     border-left: 0px;
-  }
+  } */
   .hamburger {
     display: block;
     font-size: 28px;
@@ -126,6 +126,7 @@ background-color: rgb(51, 65, 41);
   .plantBox {
     width: 100%;
   }
+
 }
 
 hr {
