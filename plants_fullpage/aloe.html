@@ -1,38 +1,183 @@
 <!DOCTYPE html>
 
 <head>
-<title>Houseplants</title>
-<link rel="stylesheet" href="../style.css">
-<style>
-body {
-background-image: url('../images/background.png');
-image-rendering: optimizeSpeed;
-background-repeat: no-repeat;
-background-attachment: fixed;  
-background-size: cover;
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>𖤓 Aloe 𖤓</title>
 
-}
-</style>
+<link rel="stylesheet" href="/style.css">
 
 </head>
-<br>
 
 <body>
+
+<div class="background">
+    <img src="/images/background2.png">
+</div>
+
+<!-- navigation bar used across the website  -->
 <nav class="navbar">
   <h1>Houseplants</h1>
   <ul class="nav-links">
-    <li><a href="home.html">Home</a></li>
-    <li><a href="the_garden.html">The Garden</a></li>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/the_garden.html">The Garden</a></li>
     <li><a href="#">Plant Planner</a></li>
-    <li><a href="#">Other</a></li>
+    <li><a href="#">About</a></li>
+ 
   </ul>
-
-  <div class="hamburger">☰</div>
+<!-- hamburger menu ill use for mobile device navigation -->
+  <div class="hamburger" id="hamburger">∷</div>
 </nav>
-<hr>
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.querySelector(".nav-links");
 
-<div class="pageTitle">
-    <h1>The Garden</h1>
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    if (navLinks.classList.contains("active")) {
+      hamburger.textContent = "☰";
+    } else {
+      hamburger.textContent = "∷";
+    }
+  });
+</script>
+
+
+
+<div class="moreInfo">
+    <img src="/images/plants/aloe-thumb.jpg">
+    <br>
+    <h1>Aloe</h1>
+    <h3>Asphodelaceae</h3>
+    <br>
+    <hr>
+   
+<div class="infoBoxContainer">
+    <div class="infoBox">
+        <div class="infoHeader">
+        <h1>Light</h1>
+        <h3>| Medium/High</h3>
+        </div>
+    <div class="infoIcons">
+        <img src="/icons/sun-solid.svg">
+        <img src="/icons/sun-solid.svg">
+        <img src="/icons/sun-solid.svg">
+        <img src="/icons/sun-solid.svg">
+        <img src="/icons/sun.svg">
+    </div>
+        <p>Prefers full sunlight. They thrive in bright, sunny locations and can tolerate some partial shade, especially in hot climates.</p>
+    </div>
+
+    <div class="infoBox">
+        <div class="infoHeader">
+        <h1>Water</h1>
+        <h3>| Low</h3>
+    </div>
+      <div class="infoIcons">
+        <img src="/icons/droplet-solid.svg">
+        <img src="/icons/droplet.svg">
+        <img src="/icons/droplet.svg">
+        <img src="/icons/droplet.svg">
+        <img src="/icons/droplet.svg">
+    </div>
+        <p>Aloe plants are drought-tolerant and should be watered sparingly. Allow the soil to dry out completely between waterings to prevent root rot.
+        </p>
+    </div>
+
+      <div class="infoBox">
+        <div class="infoHeader">
+        <h1>Soil</h1>
+        <h3>| Well-Drained</h3>
+        </div>
+    <div class="infoIcons">
+        <img src="/icons/soil-solid.svg">
+        <img src="/icons/soil-solid.svg">
+        <img src="/icons/soil-solid.svg">
+        <img src="/icons/soil-solid.svg">
+        <img src="/icons/soil.svg">
+    </div>
+        <p>Use a well-draining potting mix specifically designed for succulents and cacti. A mix of sand, perlite, and standard potting soil works well.</p>
+    </div>
+
+      <div class="infoBox">
+     <div class="infoHeader">
+        <h1>Humidity</h1>
+        <h3>| Low</h3>
+    </div>
+     <div class="infoIcons">
+        <img src="/icons/humid-solid.svg">
+        <img src="/icons/humid.svg">
+        <img src="/icons/humid.svg">
+        <img src="/icons/humid.svg">
+        <img src="/icons/humid.svg">
+    </div>
+        <p>Aloe plants thrive in warm temperatures, ideally between 60°F to 85°F (15°C to 29°C). They can tolerate cooler temperatures but should be protected from frost. Low humidity is preferable.</p>
+    </div>
+</div>
+
+<br>
+    <hr>
+    <p>Aloe, commonly known as Aloe Vera or simply Aloe, is a genus of succulent plants renowned for their medicinal properties and striking appearance. The genus includes over 500 species, each with unique leaf shapes, sizes, and colors. Aloe plants are prized for their healing properties, ornamental value, and ease of cultivation.</p><br>
+    <hr>
+    <h4>Fertilization</h4>
+    <p>Feed Aloe plants with a balanced, water-soluble fertilizer diluted to half strength. Fertilize sparingly, typically once in the spring and once in the summer.</p>
+    <hr>
+    <h4>Maintenance</h4>
+    <p>Remove any dead or damaged leaves to maintain the plant's appearance. Repot Aloe plants every 2-3 years to refresh the soil and accommodate growth.</p>
+    <hr>
+    <h4>Physical Characteristics</h4>
+    <p>Aloe plants are characterized by their thick, fleshy leaves that form rosettes. The leaves are often serrated or have spines along the edges, and can vary in color from bright green to bluish or grayish-green. Some species have spots or stripes on their leaves.</p>
+    <hr>
+    <h4>Common Names</h4>
+    <p>Aloe Vera, Burn Plant, Medicine Plant, Desert Lily</p>
+    <hr>
+    <p>Order: Asparagales | Family: Asphodelaceae | Genus: Aloe</p>
+    <br>
+    <hr>
+    <h4>Common Species</h4>
+    <p>1. Aloe vera:<br>
+    - Widely known for its medicinal properties.<br>
+    - Grows well in full sun and well-draining soil.<br><br>
+2. Aloe arborescens (Tree Aloe):<br>
+    - Large, branching species that can reach up to 10 feet in height.<br>
+    - Prefers full sun and well-draining soil.<br><br>
+3. Aloe brevifolia (Short-Leaf Aloe):<br>
+    - Small, compact species with blue-green leaves.<br>
+    - Ideal for rock gardens and container planting.<br><br>
+4. Aloe marlothii (Mountain Aloe):<br>
+    - Notable for its thick, spiny leaves and tall flower spikes.<br>
+    - Grows well in full sun and well-draining soil.<br><br>
+5. Aloe aristata (Lace Aloe):<br>
+    - Compact species with white-spotted leaves and soft spines.<br>
+    - Prefers bright, indirect light and well-draining soil.<br><br>
+6. Aloe polyphylla (Spiral Aloe):<br>
+    - Known for its striking spiral leaf arrangement.<br>
+    - Requires well-draining soil and cool temperatures.<br><br>
+7. Aloe ferox (Cape Aloe):<br>
+    - Tall species with thick, spiny leaves and vibrant flowers.<br>
+    - Thrives in full sun and well-draining soil.<br><br>
+8. Aloe striata (Coral Aloe):<br>
+    - Features smooth, blue-green leaves and coral-red flowers.<br>
+    - Prefers full sun and well-draining soil.<br><br>
+9. Aloe humilis (Spider Aloe):<br>
+    - Small species with thin, spiky leaves.<br>
+    - Ideal for rock gardens and container planting.<br><br>
+10. Aloe dichotoma (Quiver Tree):<br>
+    - Large, tree-like species with branching growth habit.<br>
+    - Prefers full sun and well-draining soil.<br>
+    </p>
+    <hr>
+    <p></p>
+<div class="pageCite">
+    <h4>Information Sourced From</h4>
+    <a href="https://www.houseplantresource.com">houseplantresource.com</a>
+</div>
+    
+</div>
+
+<br>
+<br>
+<br>
+<br>
 
 
 

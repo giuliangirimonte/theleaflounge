@@ -5,9 +5,9 @@
 <title>𖤓 The Garden 𖤓</title>
 <link rel="stylesheet" href="style.css">
 <!-- google fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
 </head>
 
 <!-- JavaScript for the search bar  -->
@@ -38,10 +38,10 @@ function searchPlants() {
     <li><a href="index.html">Home</a></li>
     <li><a href="the_garden.html">The Garden</a></li>
     <li><a href="#">Plant Planner</a></li>
-    <li><a href="#">Other</a></li>
+    <li><a href="#">About</a></li>
   </ul>
   </div>
-  <div class="hamburger">☰</div>
+  <div class="hamburger" id="hamburger">∷</div>
 </nav>
 
 <div class="allPlantContent">
@@ -1597,6 +1597,20 @@ function searchPlants() {
 </div>
 
 </div>
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.querySelector(".nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    if (navLinks.classList.contains("active")) {
+      hamburger.textContent = "☰";
+    } else {
+      hamburger.textContent = "∷";
+    }
+  });
+</script>
 
 </body>
 

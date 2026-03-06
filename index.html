@@ -19,7 +19,6 @@
 <br>
 
 <body>
-
 <div class="background">
     <img src="images/background4.png">
 </div>
@@ -31,26 +30,38 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="the_garden.html">The Garden</a></li>
     <li><a href="#">Plant Planner</a></li>
-    <li><a href="#">Other</a></li>
+    <li><a href="#">About</a></li>
+
   </ul>
-<!-- hamburger menu ill use for mobile device navigation -->
-  <div class="hamburger">☰</div>
+<!-- hamburger menu for mobile device navigation -->
+  <div class="hamburger" id="hamburger">∷</div>
 </nav>
 
 <div class="mainTitle">
-  <h1>GET TO</h1>
-  <h1>KNOW YOUR</h1>
-  <h1>PLANTS.</h1>
+  <h1>GET TO<br> KNOW YOUR <br> PLANTS.</h1>
 </div>
 
-<!-- 3D model of plants  -->
-<model-viewer 
+3D model of plants 
+<!-- <model-viewer 
   src="plant.glb"
   auto-rotate
   <!-- <camera-controls 
-  style="width: 600px; height: 600px; background-color: #f5f5f500;">
-</model-viewer>
+  style="width: 700px; height: 800px; background-color: #f5f5f500;">
+</model-viewer> -->
 
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.querySelector(".nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    if (navLinks.classList.contains("active")) {
+      hamburger.textContent = "☰";
+    } else {
+      hamburger.textContent = "∷";
+    }
+  });
+</script>
 </body>
 
 </html>
