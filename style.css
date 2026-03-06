@@ -111,21 +111,15 @@ background-color: rgb(51, 65, 41);
 
 @media (max-width: 820px) {
 
+  .background img {
+    display: none;
+  }
+
   .hamburger {
     display: block;
     font-size: 28px;
     cursor: pointer;
     z-index: 1001;
-  }
-  .nav-links a{
-    background: rgba(74, 96, 68, 0.454);
-     backdrop-filter: blur(7px);
-
-  box-shadow: 2px 7px 12px 4px rgba(12, 21, 2, 0.493);
-  border-top: 1px solid rgba(124, 161, 94, 0.29);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.146);
-  border-right: 1px solid rgba(124, 161, 94, 0.124);
-  border-left: 1px solid rgba(124, 161, 94, 0.29);
   }
 
   .nav-links {
@@ -138,13 +132,20 @@ background-color: rgb(51, 65, 41);
     gap: 10px;
     transform: translateX(120%);
     transition: transform 0.4s ease;
-    
+  }
+
+  .nav-links a{
+    background: rgba(74, 96, 68, 0.56);
+     backdrop-filter: blur(7px);
+  box-shadow: 2px 7px 12px 4px rgba(12, 21, 2, 0.493);
+  border-top: 1px solid rgba(124, 161, 94, 0.29);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.146);
+  border-right: 1px solid rgba(124, 161, 94, 0.124);
+  border-left: 1px solid rgba(124, 161, 94, 0.29);
   }
 
   .nav-links.active {
-    transform: translateX(0);
-    transform: translateY(15px);
-
+    transform: translateX(0) translateY(15px);
   }
 
 }
