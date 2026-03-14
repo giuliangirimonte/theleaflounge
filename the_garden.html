@@ -4,28 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>𖤓 The Garden 𖤓</title>
 <link rel="stylesheet" href="style.css">
-<!-- google fonts -->
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
 </head>
-
-<!-- JavaScript for the search bar  -->
-<script>
-function searchPlants() {
-  const input = document.getElementById("searchInput").value.toLowerCase();
-  const cards = document.querySelectorAll(".plantBox");
-  cards.forEach(card => {
-    const text = card.innerText.toLowerCase();
-    if (text.includes(input)) {
-      card.style.display = "";
-    } else {
-      card.style.display = "none";
-    }
-  });
-}
-</script>
-
 <body>
 
 <div class="background">
@@ -33,12 +12,12 @@ function searchPlants() {
 </div>
 
 <nav class="navbar">
-  <h1>Houseplants</h1>
+  <h1>The Leaf Lounge</h1>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="the_garden.html">The Garden</a></li>
-    <li><a href="#">Plant Planner</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="the_Lounge.html">The Lounge</a></li>
+    <li><a href="about.html">About</a></li>
   </ul>
   </div>
   <div class="hamburger" id="hamburger">∷</div>
@@ -53,15 +32,6 @@ function searchPlants() {
 <br>
 <br>
 
-<div class="pageTitle">
-    <h1>The Garden</h1>
-    <p>The Garden is a collection of common houseplants, organized by genus (a group of closely related species within the same plant family).
-    Click ⋯ to learn more about a plant, its care instructions, and other species within the same genus.
-    You can also search for plants by their common name, genus, or family using the search bar below.</p>
-</div>
-
-<br>
-
 <div class="searchBar">
   <input 
     type="text" 
@@ -70,9 +40,16 @@ function searchPlants() {
     onkeyup="searchPlants()">
 </div>
 
-<br>
 
 <div class="plantContainer">
+
+<header class="pageTitle">
+    <h1>The Garden</h1>
+    <p>The Garden is a collection of common houseplants, organized by genus (a group of closely related species within the same plant family).<br><br>
+    Click ⋯ to learn more about a plant.<br>
+    Click + to add a watering reminder to your calendar.<br><br>
+    You can also search for plants by common name, genus, or family using the search bar above.</p>
+</header>
 
 <div class="plantBox">
     <img src="images/plants/aglaonema_thumb.jpg">
@@ -96,6 +73,7 @@ function searchPlants() {
     </div>
     <div class="plantBoxInfo">
        <a href="plants_fullpage/aglaonema.html">⋯</a>
+       <button onclick="downloadPlantEvent('Aglaonema')">+</button>
     </div>
 </div>
 
@@ -121,6 +99,7 @@ function searchPlants() {
     </div>
     <div class="plantBoxInfo">
        <a href="plants_fullpage/alocasia.html">⋯</a>
+       <button onclick="downloadPlantEvent('Alocasia')">+</button>
     </div>
 </div>
 
@@ -146,6 +125,7 @@ function searchPlants() {
     </div>
     <div class="plantBoxInfo">
        <a href="plants_fullpage/aloe.html">⋯</a>
+       <button onclick="downloadPlantEvent('Aloe')">+</button>
     </div>
 </div>
 
@@ -171,6 +151,7 @@ function searchPlants() {
     </div>
     <div class="plantBoxInfo">
        <a href="plants_fullpage/anthurium.html">⋯</a>
+       <button onclick="downloadPlantEvent('Anthurium')">+</button>
     </div>
 </div>
 
@@ -446,7 +427,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/plectranthus.html">+</a>
+       <a href="plants_fullpage/plectranthus.html">⋯</a>
     </div>
 </div>
 
@@ -471,7 +452,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/cordyline.html">+</a>
+       <a href="plants_fullpage/cordyline.html">⋯</a>
     </div>
 </div>
 
@@ -496,7 +477,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/croton.html">+</a>
+       <a href="plants_fullpage/croton.html">⋯</a>
     </div>
 </div>
 
@@ -521,7 +502,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/cryptanthus.html">+</a>
+       <a href="plants_fullpage/cryptanthus.html">⋯</a>
     </div>
 </div>
 
@@ -546,7 +527,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/ctenanthe.html">+</a>
+       <a href="plants_fullpage/ctenanthe.html">⋯</a>
     </div>
 </div>
 
@@ -571,7 +552,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/dieffenbachia.html">+</a>
+       <a href="plants_fullpage/dieffenbachia.html">⋯</a>
     </div>
 </div>
 
@@ -597,7 +578,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/dracaena.html">+</a>
+       <a href="plants_fullpage/dracaena.html">⋯</a>
     </div>
 </div>
 
@@ -622,7 +603,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/echeveria.html">+</a>
+       <a href="plants_fullpage/echeveria.html">⋯</a>
     </div>
 </div>
 
@@ -648,7 +629,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/epiphyllum.html">+</a>
+       <a href="plants_fullpage/epiphyllum.html">⋯</a>
     </div>
 </div>
 
@@ -674,7 +655,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/fern.html">+</a>
+       <a href="plants_fullpage/fern.html">⋯</a>
     </div>
 </div>
 
@@ -700,7 +681,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/ficus.html">+</a>
+       <a href="plants_fullpage/ficus.html">⋯</a>
     </div>
 </div>
 
@@ -726,7 +707,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/fittonia.html">+</a>
+       <a href="plants_fullpage/fittonia.html">⋯</a>
     </div>
 </div>
 
@@ -752,7 +733,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/gerbera.html">+</a>
+       <a href="plants_fullpage/gerbera.html">⋯</a>
     </div>
 </div>
 
@@ -778,7 +759,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/guzmania.html">+</a>
+       <a href="plants_fullpage/guzmania.html">⋯</a>
     </div>
 </div>
 
@@ -804,7 +785,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/homalomena.html">+</a>
+       <a href="plants_fullpage/homalomena.html">⋯</a>
     </div>
 </div>
 
@@ -830,7 +811,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/hoya.html">+</a>
+       <a href="plants_fullpage/hoya.html">⋯</a>
     </div>
 </div>
 
@@ -856,7 +837,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/hydrangea.html">+</a>
+       <a href="plants_fullpage/hydrangea.html">⋯</a>
     </div>
 </div>
 
@@ -882,7 +863,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/hypoestes.html">+</a>
+       <a href="plants_fullpage/hypoestes.html">⋯</a>
     </div>
 </div>
 
@@ -908,7 +889,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/hedera.html">+</a>
+       <a href="plants_fullpage/hedera.html">⋯</a>
     </div>
 </div>
 
@@ -934,7 +915,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/aeschynanthus.html">+</a>
+       <a href="plants_fullpage/aeschynanthus.html">⋯</a>
     </div>
 </div>
 
@@ -960,7 +941,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/maranta.html">+</a>
+       <a href="plants_fullpage/maranta.html">⋯</a>
     </div>
 </div>
 
@@ -986,7 +967,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/pachira.html">+</a>
+       <a href="plants_fullpage/pachira.html">⋯</a>
     </div>
 </div>
 
@@ -1012,7 +993,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/monstera.html">+</a>
+       <a href="plants_fullpage/monstera.html">⋯</a>
     </div>
 </div>
 
@@ -1038,7 +1019,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/nematanthus.html">+</a>
+       <a href="plants_fullpage/nematanthus.html">⋯</a>
     </div>
 </div>
 
@@ -1064,7 +1045,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/urtica.html">+</a>
+       <a href="plants_fullpage/urtica.html">⋯</a>
     </div>
 </div>
 
@@ -1090,7 +1071,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/olea.html">+</a>
+       <a href="plants_fullpage/olea.html">⋯</a>
     </div>
 </div>
 
@@ -1116,7 +1097,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/orchid.html">+</a>
+       <a href="plants_fullpage/orchid.html">⋯</a>
     </div>
 </div>
 
@@ -1142,7 +1123,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/palm.html">+</a>
+       <a href="plants_fullpage/palm.html">⋯</a>
     </div>
 </div>
 
@@ -1168,7 +1149,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/spathiphyllum.html">+</a>
+       <a href="plants_fullpage/spathiphyllum.html">⋯</a>
     </div>
 </div>
 
@@ -1194,7 +1175,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/peperomia.html">+</a>
+       <a href="plants_fullpage/peperomia.html">⋯</a>
     </div>
 </div>
 
@@ -1220,7 +1201,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/philodendron.html">+</a>
+       <a href="plants_fullpage/philodendron.html">⋯</a>
     </div>
 </div>
 
@@ -1247,7 +1228,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/euphorbia.html">+</a>
+       <a href="plants_fullpage/euphorbia.html">⋯</a>
     </div>
 </div>
 
@@ -1274,7 +1255,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/epipremnum.html">+</a>
+       <a href="plants_fullpage/epipremnum.html">⋯</a>
     </div>
 </div>
 
@@ -1301,7 +1282,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/rhaphidophora.html">+</a>
+       <a href="plants_fullpage/rhaphidophora.html">⋯</a>
     </div>
 </div>
 
@@ -1328,7 +1309,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/schefflera.html">+</a>
+       <a href="plants_fullpage/schefflera.html">⋯</a>
     </div>
 </div>
 
@@ -1355,7 +1336,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/scindapsus.html">+</a>
+       <a href="plants_fullpage/scindapsus.html">⋯</a>
     </div>
 </div>
 
@@ -1382,7 +1363,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/sansevieria.html">+</a>
+       <a href="plants_fullpage/sansevieria.html">⋯</a>
     </div>
 </div>
 
@@ -1408,7 +1389,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/chlorophytum.html">+</a>
+       <a href="plants_fullpage/chlorophytum.html">⋯</a>
     </div>
 </div>
 
@@ -1434,7 +1415,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/stromanthe.html">+</a>
+       <a href="plants_fullpage/stromanthe.html">⋯</a>
     </div>
 </div>
 
@@ -1460,7 +1441,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/succulent.html">+</a>
+       <a href="plants_fullpage/succulent.html">⋯</a>
     </div>
 </div>
 
@@ -1486,7 +1467,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/syngonium.html">+</a>
+       <a href="plants_fullpage/syngonium.html">⋯</a>
     </div>
 </div>
 
@@ -1512,7 +1493,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/tradescantia.html">+</a>
+       <a href="plants_fullpage/tradescantia.html">⋯</a>
     </div>
 </div>
 
@@ -1538,7 +1519,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/tillandsia.html">+</a>
+       <a href="plants_fullpage/tillandsia.html">⋯</a>
     </div>
 </div>
 
@@ -1564,7 +1545,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="../houseplants/plants_fullpage/yucca.html">+</a>
+       <a href="plants_fullpage/yucca.html">⋯</a>
     </div>
 </div>
 
@@ -1590,7 +1571,7 @@ function searchPlants() {
     <img src="icons/sun.svg">
     </div>
     <div class="plantBoxInfo">
-       <a href="plants_fullpage/zamioculcas.html">+</a>
+       <a href="plants_fullpage/zamioculcas.html">⋯</a>
     </div>
 </div>
 
@@ -1598,20 +1579,8 @@ function searchPlants() {
 
 </div>
 
-<script>
-  const hamburger = document.getElementById("hamburger");
-  const navLinks = document.querySelector(".nav-links");
 
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-    if (navLinks.classList.contains("active")) {
-      hamburger.textContent = "☰";
-    } else {
-      hamburger.textContent = "∷";
-    }
-  });
-</script>
-
+<script src="plant_Planner.js"></script>
 </body>
 
 </html>
