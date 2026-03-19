@@ -247,7 +247,8 @@ hr {
   align-items: center;
   top: 14vh;
   z-index: 10;
-  }
+  margin-top: 3vh;
+}
 
 .searchBar input {
   width: 300px;
@@ -347,25 +348,30 @@ hr {
 .waterIcons {
   display: flex;
   margin: 20px;
+  margin-top: -0.5vh;
   margin-bottom: -12px;
+  gap: 2px;
 }
 
 .waterIcons img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: block;
   margin: 0;
   padding: 0;
+  gap: 5px
 }
 
 .sunIcons {
   display: flex;
   margin: 20px;
+  margin-bottom: 3.3vh;
+  gap: 2px;
 }
 
 .sunIcons img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: block;
   margin: 0;
   padding: 0;
