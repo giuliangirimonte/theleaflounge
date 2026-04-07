@@ -28,12 +28,12 @@ function searchPlants() {
 //   calender event 
 function downloadPlantEvent(name) {
   const plant = plantsData[name];
-  if (!plant) return alert("Plant data not found!");
+  if (!plant) return alert("Plant data not found");
 
 // this uses the JS date object to get the info for the calender event
   const today = new Date();
   const yyyy = today.getFullYear();
-//  this ensures that any single digit months or days start with a zero
+//  this makes sure that any single digit months or days start with a zero
   const mm = String(today.getMonth() + 1).padStart(2, '0');
   const dd = String(today.getDate()).padStart(2, '0');
 // makes it a string that ICS reads 
@@ -54,7 +54,7 @@ END:VCALENDAR
   `.trim();
 
   const blob = new Blob([icsContent], { type: 'text/calendar' });
-//   makes a temporary url with the ICS file 
+//   makes a temporary url with the ICS file so it can be downloaded to the device 
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
