@@ -160,7 +160,7 @@ background-color: rgb(66, 83, 54);
     border-right: 1px solid rgba(124, 161, 94, 0.124);
     border-left: 1px solid rgba(124, 161, 94, 0.29);
   }
-  
+
   .nav-links a{
     background: rgb(74, 96, 68);
     /* backdrop-filter: blur(7px); */
@@ -192,6 +192,10 @@ background-color: rgb(66, 83, 54);
     transform: translateX(0px) translateY(0px);
     margin-top: 3vh;
     
+  }
+
+  .navbar{
+    padding: 2rem;
   }
 }
 
