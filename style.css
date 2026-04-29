@@ -196,6 +196,7 @@ background-color: rgb(66, 83, 54);
 
   .navbar{
     padding: 2rem;
+
   }
 }
 
@@ -310,7 +311,7 @@ hr {
   display: grid;
   position: sticky;
   align-items: center;
-  top: 12vh;
+  top: 13vh;
   z-index: 10;
   margin-top: 3vh;
   padding-top: 1vh;
