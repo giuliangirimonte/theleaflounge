@@ -33,7 +33,7 @@ background-color: rgb(66, 83, 54);
   width: 100%;
   height: 8vh;
   z-index: 100;
-  padding: 0.1rem 30px;
+  padding: 1rem 30px;
   box-sizing: border-box; 
   box-shadow: 2px 7px 12px 4px rgba(12, 21, 2, 0.586);
   backdrop-filter: blur(7px);
@@ -859,7 +859,7 @@ transform:scale(1.08);
   color: white;
   max-width: 300px;
   margin: 10rem auto;
-  margin-bottom: -9rem;
+
   justify-items: center;
   background-color: rgba(33, 56, 27, 0.454);
   border-top: 1px solid rgba(124, 161, 94, 0.29);
